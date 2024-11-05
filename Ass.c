@@ -11,7 +11,7 @@ int main() {
     }
     for(int h=0;h<n;h++){
     for(j=0; j<n; j++) {
-        if(x[j]>x[j+1]) {
+        if(x[j]>x[j+1]) {//chage symbol to get in decending order
             int temp=x[j];
             x[j]=x[j+1];
             x[j+1]=temp;
