@@ -10,7 +10,7 @@ int main() {
         scanf("%d",&x[i]);
     }
     for(int h=0;h<n;h++){
-    for(j=0; j<n; j++) {
+    for(j=0; j<n-1; j++) {
         if(x[j]>x[j+1]) {//chage symbol to get in decending order
             int temp=x[j];
             x[j]=x[j+1];
